@@ -127,6 +127,7 @@ model Conversation {
   workspace Workspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
   user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
   messages  Message[]
+  toolCalls  ToolCall[]
 
   @@index([workspaceId, userId])
 }
