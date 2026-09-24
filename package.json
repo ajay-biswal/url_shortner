@@ -1,16 +1,16 @@
 {
-  "name": "url-shortener",
+  "name": "docupilot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Multi-workspace AI document assistant with RAG and tool calling",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1
   },
-  "keywords": [],
+  "keywords": ["rag", "ai", "document-assistant", "tool-calling"],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.28.1",
